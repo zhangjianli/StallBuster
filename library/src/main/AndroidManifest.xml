@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.github.zhangjianli">
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18"/>
+
+    <application>
+        <activity android:label="@string/report_app_name"
+                  android:icon="@android:drawable/sym_def_app_icon"
+            android:name="com.github.zhangjianli.stallbuster.ui.ReportListActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/report_app_detail"
+            android:name="com.github.zhangjianli.stallbuster.ui.ReportDetailActivity">
+        </activity>
+    </application>
+
+</manifest>

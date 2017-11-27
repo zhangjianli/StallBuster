@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DemoActivity</string>
+    <string name="title_activity_sub">SubActivity</string>
+
+    <string name="start_subactivity">Start SubActivity</string>
+    <string name="stalling_enabled">Stalling enabled.</string>
+    <string name="stalling_disabled">Stalling disabled.</string>
+
+    <string name="sub_activity_tip">Check out the notification posted by StallBuster in the status bar. \nClick the notification to see how much time it took to start SubActivity.</string>
+
+    <string name="main_activity_tip">Click below checkbox to enable or disable Stalling.\nIf enabled, DemoActivity will constantly send random time consuming Message to the Message Queue of the main thread, this simulates unexpected blocking of the main thread. </string>
+</resources>

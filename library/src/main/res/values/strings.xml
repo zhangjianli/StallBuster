@@ -1,0 +1,18 @@
+<resources>
+    <string name="report_app_name">StallBuster</string>
+    <string name="report_app_detail">RecordDetail</string>
+    <string name="empty_records">No StallBuster records found</string>
+    <string name="notification_title">It took %1$dms to start %2$s</string>
+    <string name="notification_text">Click for more information</string>
+    <string name="delete_all">Delete all</string>
+    <string name="delete_this">Delete this record?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete_all_record">Delete all records?</string>
+    <string name="record_cost">[%1$dms] %2$s</string>
+    <string name="cb_hide_system_callbacks_executed_less_than_some_ms">Hide system callbacks less than %dms </string>
+    <string name="cost">"cost:"</string>
+    <string name="target">"target:"</string>
+    <string name="message">"message:"</string>
+    <string name="callback">"callback:"</string>
+</resources>

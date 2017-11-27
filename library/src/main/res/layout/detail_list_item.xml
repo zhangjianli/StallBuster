@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingBottom="8dp"
+              android:paddingLeft="15dp"
+              android:paddingRight="15dp"
+              android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9A9A9A"
+        android:textSize="12sp"
+        tools:text="2017-11-16 17:10:40.695"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cost"
+            android:textColor="#D2691E"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:textColor="#222222"
+            android:textSize="12sp"
+            tools:text="250ms"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="@string/target"
+        android:textColor="#D2691E"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"
+        android:textSize="12sp"
+        tools:text="target:android.view.Choreographer$FrameHandler"/>
+
+    <TextView
+        android:id="@+id/msg_callback_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textColor="#D2691E"
+        android:textSize="12sp"
+        tools:text="@string/callback"/>
+
+    <TextView
+        android:id="@+id/msg_callback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"
+        android:textSize="12sp"
+        tools:text="android.view.Choreographer$FrameDisplayEventReceiver"/>
+
+
+</LinearLayout>

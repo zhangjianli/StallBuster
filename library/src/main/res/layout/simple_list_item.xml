@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingRight="15dp"
+              android:paddingTop="8dp"
+              android:paddingBottom="8dp"
+              android:paddingLeft="15dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"
+        android:textSize="16sp"
+        tools:text="A record shows how much it takes for your activity to start"/>
+
+    <TextView
+        android:id="@+id/sub_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#9A9A9A"
+        android:textSize="14sp"
+        tools:text="11-16 17:10:40.695"/>
+
+
+</LinearLayout>
