@@ -15,6 +15,7 @@
  */
 package com.github.zhangjianli.stallbuster;
 
+import android.os.Debug;
 import android.os.Handler;
 import android.os.Message;
 import android.text.TextUtils;
@@ -41,9 +42,9 @@ public class EventProcessor implements Handler.Callback {
     @Override
     public boolean handleMessage(Message msg) {
         // TODO uncomment below code when release
-        /*if (Debug.isDebuggerConnected()) {
+        if (Debug.isDebuggerConnected()) {
             return true;
-        }*/
+        }
         Event event = (Event) msg.obj;
         if (event != null) {
             try {
