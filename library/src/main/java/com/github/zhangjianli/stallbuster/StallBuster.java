@@ -254,7 +254,6 @@ public class StallBuster {
     /**
      * a handler handles file operations, please don't call this function in your app.
      * @return
-     * @hide
      */
     public Handler getFileHandler() {
         return mFileHandler;
@@ -386,23 +385,19 @@ public class StallBuster {
     }
 
     /**
-     * @hide
+     *
      */
     public int getCallbackThreshold() {
         return mConfig.callback_threshold;
     }
 
     /**
-     * @hide
      * @return
      */
     public int getCallbackWarningThreshold() {
         return mConfig.callback_warning_threshold;
     }
 
-    /**
-     * @hide
-     */
     public int getThreshold() {
         return mConfig.threshold;
     }
